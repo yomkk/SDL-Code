@@ -1,0 +1,16 @@
+	sprintf(text1,"%d",x);
+	text = loadMessage("x: ",textColor,"yayuan.ttf",20);
+	showText(text,450,50,0,0,screen);
+	text = loadMessage(text1,textColor,"yayuan.ttf",20);
+	showText(text,550,50,0,0,screen);
+	sprintf(text1,"%d",frame);
+	text = loadMessage("frame: ",textColor,"yayuan.ttf",20);
+	showText(text,450,100,0,0,screen);
+	text = loadMessage(text1,textColor,"yayuan.ttf",20);
+	showText(text,550,100,0,0,screen);
+	sprintf(text1,"%d",offSet);
+	text = loadMessage("offSet",textColor,"yayuan.ttf",20);
+	showText(text,450,150,0,0,screen);
+	text = loadMessage(text1,textColor,"yayuan.ttf",20);
+	showText(text,550,150,0,0,screen);
+	
